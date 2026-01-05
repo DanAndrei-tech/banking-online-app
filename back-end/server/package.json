@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch ./data.json --routes ./config/routes.json --middlewares ./login.middleware.js ./account.middleware.js"
+    "start": "json-server --watch ./data.json --routes ./config/routes.json --middlewares ./login.middleware.js ./account.middleware.js --port $PORT"
   },
   "keywords": [],
   "author": "",
